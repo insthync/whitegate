@@ -1,0 +1,8 @@
+{
+    "port": 6201,
+    "dbHost": "localhost:27017",
+    "dbUser": "",
+    "dbPass": "",
+    "dbName": "whitedoor",
+    "userPasswordSalt": "pwdSalt"
+}

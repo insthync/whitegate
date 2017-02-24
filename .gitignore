@@ -1,0 +1,8 @@
+/bin
+/pkg
+/src/*
+!/src/suriyun.com/
+/src/suriyun.com/suriyun/whitedoor/vendor
+suriyun-platform-api
+suriyun-platform-api.exe
+.vscode/*
