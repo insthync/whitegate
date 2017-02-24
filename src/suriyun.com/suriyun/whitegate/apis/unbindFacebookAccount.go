@@ -3,7 +3,7 @@ package apis
 import (
 	"gopkg.in/kataras/iris.v6"
 	"gopkg.in/mgo.v2/bson"
-	"suriyun.com/suriyun/whitedoor/models/user"
+	"suriyun.com/suriyun/whitegate/models/user"
 )
 
 type unbindFacebookAccountForm struct {

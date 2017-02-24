@@ -7,7 +7,7 @@ import (
 
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
-	"suriyun.com/suriyun/whitedoor/databases/mongodb"
+	"suriyun.com/suriyun/whitegate/databases/mongodb"
 )
 
 // User ... User database model

@@ -1,4 +1,4 @@
-package whitedoor
+package whitegate
 
 import (
 	"strconv"
@@ -9,9 +9,9 @@ import (
 
 	"fmt"
 
-	"suriyun.com/suriyun/whitedoor/apis"
-	"suriyun.com/suriyun/whitedoor/configurations"
-	"suriyun.com/suriyun/whitedoor/databases/mongodb"
+	"suriyun.com/suriyun/whitegate/apis"
+	"suriyun.com/suriyun/whitegate/configurations"
+	"suriyun.com/suriyun/whitegate/databases/mongodb"
 )
 
 var appConfig *configurations.AppConfiguration

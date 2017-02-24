@@ -3,6 +3,6 @@
     "dbHost": "localhost:27017",
     "dbUser": "",
     "dbPass": "",
-    "dbName": "whitedoor",
+    "dbName": "whitegate",
     "userPasswordSalt": "pwdSalt"
 }

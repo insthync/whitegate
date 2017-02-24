@@ -1,7 +1,7 @@
 package main
 
-import "suriyun.com/suriyun/whitedoor"
+import "suriyun.com/suriyun/whitegate"
 
 func main() {
-	whitedoor.Start()
+	whitegate.Start()
 }
