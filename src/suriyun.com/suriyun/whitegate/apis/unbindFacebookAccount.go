@@ -31,7 +31,7 @@ func UnbindFacebookAccount(ctx *iris.Context) {
 	selectQuery.ID = bson.ObjectIdHex(userID)
 	selectQuery.LoginToken = loginToken
 	err = col.Find(selectQuery).One(&result)
-	if ResponseSystemError(ctx, err) {
+	if ResponseLoginTokenError(ctx, err) {
 		return
 	}
 
@@ -41,7 +41,7 @@ func UnbindFacebookAccount(ctx *iris.Context) {
 	}
 
 	err = col.UpdateId(result.ID, bson.M{"$unset": bson.M{"facebookId": "", "facebookToken": ""}})
-	if ResponseLoginTokenError(ctx, err) {
+	if ResponseSystemError(ctx, err) {
 		return
 	}
 
