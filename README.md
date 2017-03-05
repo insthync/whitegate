@@ -21,3 +21,4 @@ After launch and build you can try to:
 * login with facebook with path http://localhost:6201/loginWithFacebook with POST method and post data: facebookToken(string)
 * bind Facebook account with path http://localhost:6201/bindFacebookAccount with POST method and post data: id(string), loginToken(string), facebookToken(string)
 * unbind Facebook account with path http://localhost:6201/unbindFacebookAccount with POST method and post data: id(string), loginToken(string)
+* validate login with path http://localhost:6201/validateLogin with POST method and post data: id(string), loginToken(string)
