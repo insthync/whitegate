@@ -1,1 +1,1 @@
-go build && ./suriyun-platform-api
+cd main && go build && ./main

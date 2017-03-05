@@ -3,8 +3,6 @@
 /src/*
 !/src/suriyun.com/
 /src/github.com/insthync/whitegate/vendor
-suriyun-platform-api
-suriyun-platform-api.exe
-whitegate
-whitegate.exe
+/main/main.exe
+/main/main
 .vscode/*
