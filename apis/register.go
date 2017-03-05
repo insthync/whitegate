@@ -5,9 +5,9 @@ import (
 
 	"gopkg.in/kataras/iris.v6"
 	"gopkg.in/mgo.v2/bson"
-	"suriyun.com/suriyun/whitegate/configurations"
-	"suriyun.com/suriyun/whitegate/models/user"
-	"suriyun.com/suriyun/whitegate/utils/crypto"
+	"github.com/insthync/whitegate/configurations"
+	"github.com/insthync/whitegate/models/user"
+	"github.com/insthync/whitegate/utils/crypto"
 )
 
 type registerForm struct {

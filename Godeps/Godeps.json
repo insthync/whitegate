@@ -1,5 +1,5 @@
 {
-    "ImportPath": "suriyun.com/suriyun/whitegate",
+    "ImportPath": "github.com/insthync/whitegate",
     "GoVersion": "go1.8",
     "GodepVersion": "v79",
     "Packages": [

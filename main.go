@@ -1,6 +1,4 @@
-package main
-
-import "suriyun.com/suriyun/whitegate"
+package whitegate
 
 func main() {
 	whitegate.Start()

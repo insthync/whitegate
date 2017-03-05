@@ -2,7 +2,7 @@
 /pkg
 /src/*
 !/src/suriyun.com/
-/src/suriyun.com/suriyun/whitegate/vendor
+/src/github.com/insthync/whitegate/vendor
 suriyun-platform-api
 suriyun-platform-api.exe
 whitegate

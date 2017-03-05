@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"gopkg.in/mgo.v2"
-	"suriyun.com/suriyun/whitegate/configurations"
+	"github.com/insthync/whitegate/configurations"
 )
 
 var session *mgo.Session

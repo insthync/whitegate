@@ -7,7 +7,7 @@ import (
 
 	"gopkg.in/kataras/iris.v6"
 	"gopkg.in/mgo.v2/bson"
-	"suriyun.com/suriyun/whitegate/models/user"
+	"github.com/insthync/whitegate/models/user"
 )
 
 type loginWithFacebookForm struct {
