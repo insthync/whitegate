@@ -4,5 +4,6 @@
 !/src/suriyun.com/
 /src/github.com/insthync/whitegate/vendor
 /main/main.exe
+/main/main.exe~
 /main/main
 .vscode/*
